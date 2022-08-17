@@ -64,7 +64,7 @@ auto CacheGame() -> void
 
 			ValList.clear();
 			ValList = CachedList;
-			Sleep(500);
+			Sleep(1000);
 		}
 	}
 }
