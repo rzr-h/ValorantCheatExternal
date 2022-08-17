@@ -56,9 +56,9 @@ auto CacheGame() -> void
 				{
 					if (MyUniqueID == APawn->UniqueID(Pawns))
 					{
-							ValEntity Entities{ Pawns };
-							CachedList.push_back(Entities);
-						}
+						ValEntity Entities{ Pawns };
+						CachedList.push_back(Entities);
+					}
 				}
 			}
 
