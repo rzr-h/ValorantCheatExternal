@@ -69,10 +69,6 @@ auto CacheGame() -> void
 	}
 }
 
-float closestDistance = FLT_MAX;
-float GetDistance(float x1, float y1, float z1, float x2, float y2) {
-	return sqrtf(powf((x2 - x1), 2) + powf((y2 - y1), 2));
-}
 auto CheatLoop() -> void
 {
 	for (ValEntity ValEntityList : ValList)
